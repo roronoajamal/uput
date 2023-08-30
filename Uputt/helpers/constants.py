@@ -8,21 +8,21 @@
 # t.me/SharingUserbot & t.me/Lunatic0de
 
 class First:
-    ALIVE = "`Still Working On Fire 🔥`"
+    ALIVE = "`Still Working On Fire 🥵`"
     REPO = """
-**Hey**, __I am using__ ✨ **𝚄𝙿𝚄𝚃𝚃-𝙿𝚈𝚁𝙾𝙱𝙾𝚃** ✨
+**Hey**, __I am using__ 🥵 **Rewe-Userbot** 🥵
 
 ✣ **Userbot Version :** `{}`
-✣ **Group Support :** [UputtSupport](t.me/uputtsupport)
-✣ **Channel Uputt :** [Amneseey0u](t.me/amneseey0u)
-✣ **Owner Repo :** [Uputt](t.me/iamuput)
-✣ **Repo :** [Uputt-Pyrobot](https://github.com/iamuput/Uputt-Pyrobot)
+✣ **Group Support :** [supprotrewe](t.me/supprotrewe)
+✣ **Channel Uputt :** [sattvibes](t.me/sattvibes)
+✣ **Owner Repo :** [Rewe](t.me/mabrul)
+✣ **Repo :** [Rewe-Userbot](https://github.com/mabrul/Rewe-Userbot)
 
 
-Powered by [Uputt-Pyrobot](https://github.com/iamuput/Uputt-Pyrobot)"""
-    CREATOR = 'I was created by my master <a href="https://github.com/iamuput/Uputt-Pyrobot">Man</a> on a rainy day.'
+Powered by [Rewe-Userbot](https://github.com/mabrul/Rewe-Userbot)"""
+    CREATOR = 'I was created by my master <a href="https://github.com/mabrul/Rewe-Userbot">Man</a> on a rainy day.'
     MSG_ON = """
-🐣 **Uputt-Pyrobot Berhasil Di Aktifkan** 🐣
+🥵 **Rewe-Userbot Berhasil Di Aktifkan** 🥵
 ━━
 ➠ **Userbot Version -** `{}`
 ➠ **Ketik** `{}alive` **untuk Mengecheck Bot**
