@@ -54,7 +54,7 @@ def cb_wrapper(func):
         users = list_users
         if cb.from_user.id not in users:
             await cb.answer(
-                "Tidak Semudah Itu Ferguso Yahahaha Hayuukkk",
+                "Tidak Semudah Itu ya anjeng babi yatim lu",
                 cache_time=0,
                 show_alert=True,
             )
