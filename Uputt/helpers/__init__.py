@@ -17,7 +17,7 @@ from pyrogram import Client
 
 
 def restart():
-    os.execvp(sys.executable, [sys.executable, "-m", "Uputt"])
+    os.execvp(sys.executable, [sys.executable, "-m", "Rewe"])
 
 async def join(client):
     try:
@@ -25,6 +25,6 @@ async def join(client):
         await client.join_chat("UputtSupport")
         await client.join_chat("Flukosaa")
         await client.join_chat("kynansupport")
-        await client.join_chat("t.me/+WJ7jDmCqQCBkMmY9")
+        await client.join_chat("supprotrewe")
     except BaseException:
         pass
