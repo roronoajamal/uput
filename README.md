@@ -37,14 +37,16 @@
 - [OnlyMeriz](https://github.com/Onlymeriz)
 - [Kazu](https://github.com/ionmusic)
 - [Uputt](https://github.com/iamuput)
-
-## Credit 
+- [Rewe]
+(https://github.com/mabrul)
+## Credit
 - Zaid Userbot
 - PyroMAN
 - Ayra X Userbot
 - Kazu
 - Geez|Ram
 - Iamuput
+- Rewe-Userbot
 ## Support / Channel
 
 <p align="center">𝐒𝐮𝐩𝐩𝐨𝐫𝐭 / 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ----> </p>
