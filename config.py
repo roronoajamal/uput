@@ -18,13 +18,13 @@ load_dotenv("config.env")
 
 
 ALIVE_EMOJI = getenv("ALIVE_EMOJI", "🥵")
-ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph/file/b42b7a4a22ba89287cad4.jpg")
+ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph/file/4271f576944b0545c6514.jpg")
 ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hey, I am alive.")
-API_HASH = getenv("API_HASH", "34efb38c74d5e6b25d1bb6234396a8af")
-API_ID = getenv("API_ID", "23129036")
+API_HASH = getenv("API_HASH", "0af665007c8e7f51cca4b5cde104c8cb")
+API_ID = getenv("API_ID", "22834508")
 BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
-    BLACKLIST_CHAT = [-1001608701614, -1001675459127, -1001473548283, -1001608701614]
+    BLACKLIST_CHAT = [-1001866017459, -1001675459127, -1001473548283, -1001608701614]
 BLACKLIST_GCAST = {int(x) for x in getenv("BLACKLIST_GCAST", "").split()}
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
 BOT_VER = "1.1.5@main"
