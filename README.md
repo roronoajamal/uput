@@ -37,8 +37,8 @@
 - [OnlyMeriz](https://github.com/Onlymeriz)
 - [Kazu](https://github.com/ionmusic)
 - [Uputt](https://github.com/iamuput)
-- [Rewe]
- .(https://github.com/mabrul).
+- [Rewe](https://github.com/mabrul)
+
 ## Credit
 - Zaid Userbot
 - PyroMAN
