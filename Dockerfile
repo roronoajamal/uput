@@ -1,12 +1,12 @@
-FROM worker/uputt-userbot:buster
+FROM worker/ReweUserbot:buster
 
-RUN git clone -b uputt-userbot https://github.com/iamuput/uputt-userbot /home/uputtuserbot/ \
+RUN git clone -b Rewe-Userbot https://github.com/mabrul/Rewe-Userbot /home/ReweUserbot/ \
     && chmod 777 /home/pyrozuuserbot \
     && mkdir /home/pyrozuuserbot/bin/
 
-COPY ./sample_config.env ./config.env* /home/uputtuserbot/
+COPY ./sample_config.env ./config.env* /home/ReweUserbot/
 
-WORKDIR /home/uputtuserbot/
+WORKDIR /home/ReweUserbot/
 
 RUN pip install -r requirements.txt
 
