@@ -96,7 +96,7 @@ def git():
         except GitCommandError:
             repo.git.reset("--hard", "FETCH_HEAD")
         install_req("pip3 install --no-cache-dir -U -r requirements.txt")
-        LOGGER("Uputt").info("Fetched Latest Updates")
+        LOGGER("Rewe").info("Fetched Latest Updates")
 
 
 def is_heroku():
@@ -110,7 +110,7 @@ def heroku():
             try:
                 Heroku = heroku3.from_key(HEROKU_API_KEY)
                 HAPP = Heroku.app(HEROKU_APP_NAME)
-                LOGGER("Uputt").info(f"Heroku App Configured")
+                LOGGER("Rewe").info(f"Heroku App Configured")
             except BaseException as e:
                 LOGGER("Heroku").error(e)
                 LOGGER("Heroku").info(
@@ -128,10 +128,10 @@ async def create_botlog(client):
     LOGGER("Uputt").info(
         "TUNGGU SEBENTAR SAYANG. SEDANG MEMBUAT GROUP LOG USERBOT UNTUK KAMU"
     )
-    desc = "Group Log untuk Uputt-Pyrobot.\n\nHARAP JANGAN KELUAR DARI GROUP INI.\n\nPowered By ~ @amneseey0u @iamuput 🐣"
+    desc = "Group Log untuk Rewe-Userbot.\n\nHARAP JANGAN KELUAR DARI GROUP INI.\n\nPowered By ~ @sattvibes @rewe_anu 🥵"
     try:
-        photo = "Uputt/resources/logo.jpg"
-        gruplog = await client.create_supergroup("Uputt-Pyrobot Logs", desc)
+        photo = "Rewe/resources/logo.jpg"
+        gruplog = await client.create_supergroup("Rewe-Userbot Logs", desc)
         fine = gruplog.id
         await client.set_chat_photo(fine, photo=photo)
         if await in_heroku():
@@ -141,6 +141,6 @@ async def create_botlog(client):
             path = dotenv.find_dotenv("config.env")
             dotenv.set_key(path, "BOTLOG_CHATID", gruplog.id)
     except Exception:
-        LOGGER("Uputt").warning(
+        LOGGER("Rewe").warning(
             "var BOTLOG_CHATID kamu belum di isi. Buatlah grup telegram dan masukan bot @MissRose_bot lalu ketik /id Masukan id grup nya di var BOTLOG_CHATID"
         )
