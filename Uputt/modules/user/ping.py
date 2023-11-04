@@ -69,7 +69,7 @@ async def nearest_dc(client: Client, message: Message):
 
 
 @Client.on_message(
-    filters.command("Cpink", [""]) & filters.user(DEVS) & ~filters.me
+    filters.command("Cping", [""]) & filters.user(DEVS) & ~filters.me
 )
 @Client.on_message(filters.command("ping", cmd) & filters.me)
 async def pingme(client: Client, message: Message):
@@ -79,12 +79,11 @@ async def pingme(client: Client, message: Message):
     duration = (end - start).microseconds / 1000
     await message.reply_text(
         f"❏ **Pong !!**\n"
-        f"**├• ** `%sms`\n"
-        f"╰•** ᴅᴀᴊᴊᴀʟ :** {client.me.mention}" % (duration)
+        f"**╰• ** `%sms`\n"
     )
 
 
-@Client.on_message(filters.command("Cping", [""]) & filters.user(DEVS) & ~filters.me)
+@Client.on_message(filters.command("Cpink", [""]) & filters.user(DEVS) & ~filters.me)
 @Client.on_message(filters.command("pink", cmd) & filters.me)
 async def pink(client: Client, message: Message):
     uptime = await get_readable_time((time.time() - StartTime))
@@ -93,7 +92,7 @@ async def pink(client: Client, message: Message):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await Uputt.edit(
-        f"**❏Uputt-Pyrobot**\n"
+        f"**❏Diboo-Userbot**\n"
         f"**├• PING   :** "
         f"`%sms` \n"
         f"**├•  Uptime  :** "
