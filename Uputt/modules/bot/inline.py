@@ -96,22 +96,24 @@ async def pingme(client: Client, message: Message):
 
 async def peler_function(message: Message, answers):
     msg = (
-        f"𝚄𝙿𝚄𝚃𝚃-𝙿𝚈𝚁𝙾𝙱𝙾𝚃 \n"
-        "ㅤㅤStatus : Ubot Aktif🐣 \n"
+        f"Diboo-Userbot \n"
+        "ㅤㅤStatus : Aktif \n"
         f"ㅤㅤㅤㅤModules:</b> <code>{len(modules)} Modules</code> \n"
         f"ㅤㅤㅤㅤBot Version: {BOT_VER} \n"
+        f"      Python Version:</b> <code>{pyver.split()[0]}</code> \n"
+        f"      Pyrogram Version :</b> <code>{pyrover}</code> \n"
         f"ㅤㅤㅤㅤBranch: {branch} \n\n"
     )
     answers.append(
         InlineQueryResultArticle(
             title="alive",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/b42b7a4a22ba89287cad4.jpg",
+            thumb_url="https://telegra.ph//file/c041e2b7c9d6e13074f6a.jpg",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="t.me/amneseey0u"), InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="t.me/iamuput")], [InlineKeyboardButton(text="ᴍᴇɴᴜ", callback_data="reopen")]]
+                [[InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="t.me/dibonihbosss"), InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="t.me/permensugus1")], [InlineKeyboardButton(text="ᴍᴇɴᴜ", callback_data="reopen")]]
             ),
         )
     )
